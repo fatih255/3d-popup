@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sketchfab 5 Million Members
+* source:	https://sketchfab.com/3d-models/sketchfab-5-million-members-f2615549f73946baa65d35fbcf9ee884
+* author:	Sketchfab (https://sketchfab.com/Sketchfab)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sketchfab 5 Million Members" (https://sketchfab.com/3d-models/sketchfab-5-million-members-f2615549f73946baa65d35fbcf9ee884) by Sketchfab (https://sketchfab.com/Sketchfab) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

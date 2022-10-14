@@ -1,0 +1,14 @@
+What is mesh?
+Class representing triangular polygon mesh based objects.
+
+what is polygon mesh?
+In 3D computer graphics and solid modeling, a polygon mesh is a collection of vertices, edges and faces that defines the shape of a polyhedral object.
+
+AmbientLight
+This light globally illuminates all objects in the scene equally.
+
+PointLight
+A light that gets emitted from a single point in all directions. A common use case for this is to replicate the light emitted from a bare lightbulb.
+
+MeshStandardMaterial
+A standard physically based material, using Metallic-Roughness workflow.
