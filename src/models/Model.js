@@ -20,24 +20,28 @@ export default function Model() {
   useFrame(() => {
     frameCounter++;
     propellerRef.current.rotateX(0.10)
-
-    if (frameCounter <= 100) {
-      planeRef.current.rotateX(0.002)
-    }
-    if (frameCounter > 100) {
-      planeRef.current.rotateX(-0.002)
-    }
-    if (frameCounter === 200) {
-      frameCounter = 0
-    }
-
-    modelRef.current.position.x-=0.03
-
+    
+    
+  
+ 
+     if (frameCounter <= 200) {
+       planeRef.current.rotateX(0.002)
+     }
+     if (frameCounter > 100) {
+       planeRef.current.rotateX(-0.002)
+     }
+     if (frameCounter === 300) {
+       frameCounter = 0
+     }
+     
+     
+    modelRef.current.position.x -= 0.03
   })
 
 
+
   return (
-    <group ref={modelRef} position={[0, 0, 8]} scale={3}>
+    <group rotation={[0, 0, 0]} ref={modelRef} position={[3.8, 0, 8]} scale={3}>
       <group rotation={[-Math.PI / 2, 0, 0]} scale={0.07}>
         <group rotation={[Math.PI / 2, 0, 0]}>
           <group position={[1.95, -0.25, -0.06]} rotation={[1.56, -0.03, 0.01]}>
